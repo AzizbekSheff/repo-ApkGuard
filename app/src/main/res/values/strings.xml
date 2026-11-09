@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">APK Guard</string>
+    <string name="accessibility_description">Real-time APK installation monitoring and security protection.</string>
+
+    <!-- Navigation & UI -->
+    <string name="nav_home">Home</string>
+    <string name="nav_history">History</string>
+    <string name="nav_scan">Scan</string>
+    <string name="nav_report">Scan Report</string>
+    <string name="nav_installed_apps">Installed Apps</string>
+    <string name="select_language">Select Language</string>
+    <string name="select_apk">Select APK File</string>
+    <string name="history_title">Scan History</string>
+    <string name="no_scans">No scans yet</string>
+    <string name="scan_prompt">Scan an APK to see results here</string>
+    <string name="clear_history">Clear All History?</string>
+    <string name="clear_history_msg">This will permanently delete all %1$d scan records.</string>
+    <string name="delete_all">Delete All</string>
+    <string name="cancel">Cancel</string>
+    <string name="back">Back</string>
+    <string name="ok">OK</string>
+    <string name="permission_needed_title">Storage Permission Needed</string>
+    <string name="permission_needed_desc">APK Guard needs storage access to read APK files. Please grant the permission in Settings.</string>
+
+    <!-- Home Features -->
+    <string name="home_title">APK Security Scanner</string>
+    <string name="home_subtitle">Analyze any APK for security risks before\ninstalling it on your device</string>
+    <string name="analyze_header">What We Analyze</string>
+    <string name="feat_perms">Permissions</string>
+    <string name="feat_perms_desc">Identifies dangerous &amp; signature-level permissions</string>
+    <string name="feat_urls">URLs &amp; Endpoints</string>
+    <string name="feat_urls_desc">Extracts and classifies all embedded URLs</string>
+    <string name="feat_code">Code Patterns</string>
+    <string name="feat_code_desc">Detects risky patterns: reflection, overlays, SMS</string>
+    <string name="feat_sig">Signature Check</string>
+    <string name="feat_sig_desc">Verifies APK signing certificate</string>
+    <string name="feat_malware">Malware Keywords</string>
+    <string name="feat_malware_desc">Scans for known malicious identifiers</string>
+    <string name="feat_risk">Risk Score</string>
+    <string name="feat_risk_desc">Produces a 0–100 risk score with detailed reasons</string>
+    <string name="feat_scan_installed">Scan Installed Apps</string>
+    <string name="feat_scan_installed_desc">Check apps already on your device for threats</string>
+
+    <!-- Report Section -->
+    <string name="risk_score">Risk Score</string>
+    <string name="app_info">App Information</string>
+    <string name="risk_factors">Risk Factors</string>
+    <string name="signature">Signature</string>
+    <string name="malware_indicators">Malware Indicators</string>
+    <string name="code_patterns">Code Patterns</string>
+    <string name="embedded_urls">Embedded URLs</string>
+    <string name="reject">Reject</string>
+    <string name="approve">Approve</string>
+    <string name="install">Install</string>
+    <string name="dangerous_app_detected">DANGEROUS APP DETECTED</string>
+    <string name="cancel_installation">CANCEL INSTALLATION</string>
+    <string name="install_anyway">Install anyway (unsafe)</string>
+    <string name="scanning">Scanning APK…</string>
+
+    <!-- Scanner Steps -->
+    <string name="step_copy">Copying APK to workspace…</string>
+    <string name="step_sig">Verifying APK signature…</string>
+    <string name="step_extract">Extracting APK contents…</string>
+    <string name="step_manifest">Parsing AndroidManifest.xml…</string>
+    <string name="step_dex">Scanning bytecode for threats…</string>
+    <string name="step_risk">Calculating risk score…</string>
+    <string name="step_final">Finalizing report…</string>
+
+    <!-- Risk Messages -->
+    <string name="risk_low_msg">This APK appears safe to install.</string>
+    <string name="risk_med_msg">Some concerns found. Review details.</string>
+    <string name="risk_high_msg">Multiple risk factors detected. Be cautious.</string>
+    <string name="risk_crit_msg">Highly suspicious. Do NOT install!</string>
+
+    <!-- Risk Reasons -->
+    <string name="reason_excessive_perms">Excessive dangerous permissions (%1$d)</string>
+    <string name="reason_many_perms">Many dangerous permissions (%1$d)</string>
+    <string name="reason_dangerous_perms">%1$d dangerous permissions requested</string>
+    <string name="reason_signature_perms">Requests signature-level permissions</string>
+    <string name="reason_sms_fraud">Can read AND send SMS — potential premium SMS fraud</string>
+    <string name="reason_audio_surveillance">Microphone + internet access — potential audio surveillance</string>
+    <string name="reason_accessibility">Accessibility service — commonly used by banking trojans</string>
+    <string name="reason_silent_install">Can install other apps silently</string>
+    <string name="reason_overlay">Can draw overlays — potential credential theft</string>
+    <string name="reason_autostart">Starts automatically at device boot</string>
+    <string name="reason_debug_signed">Debug-signed APK — not a production build</string>
+    <string name="reason_expired_cert">Certificate is expired</string>
+    <string name="reason_self_signed">Self-signed certificate</string>
+    <string name="reason_debuggable">App has debuggable=true flag</string>
+    <string name="reason_malware_found">Malware keywords detected: %1$s</string>
+    <string name="reason_malicious_urls">%1$d malicious URL(s) detected</string>
+    <string name="reason_suspicious_urls">%1$d suspicious URL(s) found</string>
+    <string name="reason_pattern_detected">Detected: %1$s</string>
+
+    <!-- Real-time Shield -->
+    <string name="bank_shield_title">BANKING SHIELD ACTIVE</string>
+    <string name="bank_shield_msg">A banking app is open. APK Guard is monitoring for overlays and screen recording attempts.</string>
+    <string name="bank_scanning">ApkGuard: Analyzing environment…</string>
+    <string name="bank_safe">Safe: Protection active</string>
+    <string name="bank_details">Overlay and Screen Recording blocked</string>
+    <string name="otp_warning_title">OTP SECURITY WARNING</string>
+    <string name="otp_warning_msg">A sensitive OTP code was detected. Be careful: never share this code with anyone or enter it on suspicious websites.</string>
+    <string name="close_warning">Close Warning</string>
+
+    <!-- Installed Apps -->
+    <string name="installed_apps_title">Installed Applications</string>
+    <string name="no_apps_found">No third-party apps found</string>
+    <string name="search_apps">Search apps…</string>
+    <string name="recent_scans">Recent Scans</string>
+    <string name="no_scans_yet">No recent scans found</string>
+    <string name="scan_apps_desc">Select an APK from your storage or check your installed apps for potential threats.</string>
+
+    <!-- Status -->
+    <string name="status_active">ACTIVE</string>
+    <string name="status_protected">PROTECTED</string>
+    <string name="status_inactive">INACTIVE</string>
+    <string name="home_services_status">Service Status</string>
+    <string name="home_features">Security Features</string>
+    <string name="btn_enable_protection">ENABLE PROTECTION</string>
+    <string name="home_overlay_permission">Overlay Permission</string>
+    <string name="home_accessibility">Accessibility</string>
+    <string name="home_premium_status">Premium Status</string>
+    <string name="home_overall_protection">Overall Protection</string>
+    <string name="home_welcome">Welcome</string>
+    <string name="auth_username">Username</string>
+    <string name="auth_email">Email Address</string>
+    <string name="auth_password">Password</string>
+    <string name="auth_login_title">Login</string>
+    <string name="auth_signup_title">Sign Up</string>
+    <string name="auth_continue">CONTINUE</string>
+    <string name="auth_login_btn">LOGIN</string>
+    <string name="auth_have_account">Have an account? Login</string>
+    <string name="auth_no_account">No account? Sign Up</string>
+    <string name="auth_email_username">Username or Email</string>
+
+    <!-- Verification -->
+    <string name="verification_sent_title">Verification email sent!</string>
+    <string name="verification_sent_desc"> We have sent a link to the specified Gmail address. To use the app, click that link to verify your email.</string>
+    <string name="verification_spam_warn">Attention: If you didn\'t receive the email, be sure to check your SPAM folder!</string>
+    <string name="verification_done_btn">VERIFIED, LOGIN</string>
+    <string name="verification_back_btn">NO EMAIL? GO BACK</string>
+
+    <!-- Errors & Messages -->
+    <string name="error_scan_failed">Scan Failed</string>
+    <string name="error_go_back">Go Back</string>
+    <string name="limit_reached_msg">Scan limit reached (3 total free scans). Please subscribe to premium to continue.</string>
+    <string name="btn_subscribe">SUBSCRIBE</string>
+    <string name="username_taken">Username is taken.</string>
+    <string name="email_not_verified">Email is not verified.</string>
+    <string name="user_not_found">Username not found</string>
+    <string name="auth_error">Authentication error</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Profile</string>
+    <string name="profile_edit_username">Change Username</string>
+    <string name="profile_new_username">New Username</string>
+    <string name="profile_save">Save</string>
+    <string name="profile_logout">Logout</string>
+    <string name="profile_unknown">Unknown</string>
+    <string name="profile_user_placeholder">User</string>
+    <string name="profile_plan">Subscription Plan</string>
+    <string name="profile_premium_active">Premium (Active)</string>
+    <string name="profile_free">Free (Not Premium)</string>
+    <string name="profile_scan_count">Scan Count</string>
+    <string name="profile_unlimited">Unlimited</string>
+    <string name="profile_upgrade">UPGRADE PLAN</string>
+    <string name="profile_logout_btn">LOGOUT</string>
+    <string name="profile_email">Email</string>
+    <string name="profile_username">Username</string>
+    <string name="about_app">About App</string>
+    <string name="support_contact">Contact Support</string>
+
+    <!-- Subscription Screen -->
+    <string name="sub_screen_title">Subscription Plans</string>
+    <string name="sub_screen_subtitle">Take security to the next level</string>
+    <string name="plan_free_title">Basic (Free)</string>
+    <string name="plan_free_price">0 sum</string>
+    <string name="plan_free_desc">Basic scanning</string>
+    <string name="plan_free_feat1">3 total scans</string>
+    <string name="plan_free_feat2">Basic permission analysis</string>
+    <string name="plan_free_feat3">Last 5 history records</string>
+    <string name="plan_current">Current Plan</string>
+    <string name="plan_premium_title">Premium (Monthly)</string>
+    <string name="plan_premium_desc">Full protection for 1 month</string>
+    <string name="plan_premium_feat1">Unlimited scans</string>
+    <string name="plan_premium_feat2">Real-time installation monitor</string>
+    <string name="plan_premium_feat3">Banking &amp; OTP protection</string>
+    <string name="plan_premium_btn">Get Premium (Monthly)</string>
+
+    <string name="plan_pro_title">VIP (Yearly)</string>
+    <string name="plan_pro_desc">Premium features with 20% discount</string>
+    <string name="plan_pro_feat1">All Premium features</string>
+    <string name="plan_pro_feat2">Yearly full access</string>
+    <string name="plan_pro_feat3">Save 20% per year</string>
+    <string name="plan_pro_btn">Get VIP (Yearly)</string>
+    <string name="sub_payment_info">Payments are made via Click or Payme in sums.</string>
+    <string name="select_payment_method">Select Payment Method</string>
+    <string name="payment_google_play">Google Play</string>
+    <string name="payment_click">Click (Uzbekistan)</string>
+    <string name="payment_payme">Payme (Uzbekistan)</string>
+    <string name="payment_paynet">Paynet</string>
+    <string name="payment_card">Uzcard / Humo (Manual Transfer)</string>
+    <string name="payment_technical_work">Technical work</string>
+    <string name="upload_receipt">Upload Receipt</string>
+    <string name="select_receipt_img">Select receipt image</string>
+    <string name="send_confirmation">Send for Confirmation</string>
+    <string name="receipt_sent_success">Receipt sent! Admin (@ApkGuardAdmin) will verify it shortly.</string>
+    <string name="error_no_receipt">Please select a receipt image first.</string>
+    <string name="payment_under_maintenance">This payment method is currently under maintenance.</string>
+    <string name="card_copy_msg">Card number copied to clipboard</string>
+    <string name="card_number_label">Card Number:</string>
+    <string name="card_owner_label">Owner:</string>
+    <string name="btn_copy">Copy</string>
+
+    <!-- Home Buttons & Features -->
+    <string name="btn_select_apk">SELECT APK</string>
+    <string name="btn_installed_apps">INSTALLED APPS</string>
+    <string name="feature_premium_shield_title">Premium Shield</string>
+    <string name="feature_premium_shield_desc">Protect banking applications</string>
+    <string name="feature_otp_guard_title">OTP Guard</string>
+    <string name="feature_otp_guard_desc">Keep SMS codes secure</string>
+    <string name="close">Close</string>
+    <string name="error_permissions_required">Permissions Required: Please enable Overlay and Accessibility to proceed.</string>
+    <string name="error_permissions_required_toast">Permissions are inactive! Please open the app and grant required permissions.</string>
+</resources>

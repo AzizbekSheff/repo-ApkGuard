@@ -1,0 +1,5 @@
+-keep class com.apkguard.model.** { *; }
+-keep class com.apkguard.data.entity.** { *; }
+-keepattributes Signature
+-keepattributes *Annotation*
+-dontwarn org.xmlpull.v1.**

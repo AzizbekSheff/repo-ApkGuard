@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">APK Guard</string>
+    <string name="accessibility_description">Мониторинг установки APK в реальном времени и защита безопасности.</string>
+
+    <!-- Navigation & UI -->
+    <string name="nav_home">Главная</string>
+    <string name="nav_history">История</string>
+    <string name="nav_scan">Сканирование</string>
+    <string name="nav_report">Отчет сканирования</string>
+    <string name="nav_installed_apps">Установленные приложения</string>
+    <string name="select_language">Выберите язык</string>
+    <string name="select_apk">Выбрать APK файл</string>
+    <string name="history_title">История сканирования</string>
+    <string name="no_scans">Сканирований пока нет</string>
+    <string name="scan_prompt">Отсканируйте APK, чтобы увидеть результаты</string>
+    <string name="clear_all">Очистить все</string>
+    <string name="clear_history">Очистить всю историю?</string>
+    <string name="clear_history_msg">Это безвозвратно удалит все записи о сканировании (%1$d).</string>
+    <string name="delete_all">Удалить все</string>
+    <string name="cancel">Отмена</string>
+    <string name="back">Назад</string>
+    <string name="ok">OK</string>
+    <string name="permission_needed_title">Нужен доступ к памяти</string>
+    <string name="permission_needed_desc">APK Guard требуется доступ к хранилищу для чтения файлов. Разрешите это в настройках.</string>
+
+    <!-- Home Features -->
+    <string name="home_title">APK Сканер Безопасности</string>
+    <string name="home_subtitle">Анализируйте любое APK на наличие рисков\nперед установкой на устройство</string>
+    <string name="home_welcome">Добро пожаловать</string>
+    <string name="home_services_status">Статус сервисов</string>
+    <string name="home_overall_protection">Общая защита</string>
+    <string name="home_overlay_permission">Разрешение Overlay</string>
+    <string name="home_accessibility">Спец. возможности</string>
+    <string name="home_premium_status">Премиум статус</string>
+    <string name="analyze_header">Что мы анализируем</string>
+    <string name="feat_perms">Разрешения</string>
+    <string name="feat_perms_desc">Определяет опасные разрешения и разрешения уровня подписи</string>
+    <string name="feat_urls">URL и эндпоинты</string>
+    <string name="feat_urls_desc">Извлекает и классифицирует все встроенные URL-адреса</string>
+    <string name="feat_code">Шаблоны кода</string>
+    <string name="feat_code_desc">Обнаруживает опасные шаблоны: рефлексия, SMS и др.</string>
+    <string name="feat_sig">Проверка подписи</string>
+    <string name="feat_sig_desc">Проверяет сертификат подписи APK</string>
+    <string name="feat_malware">Вредоносные слова</string>
+    <string name="feat_malware_desc">Поиск известных вредоносных идентификаторов</string>
+    <string name="feat_risk">Оценка риска</string>
+    <string name="feat_risk_desc">Выдает оценку риска от 0 до 100 с подробными причинами</string>
+    <string name="feat_scan_installed">Анализ установленных приложений</string>
+    <string name="feat_scan_installed_desc">Проверьте приложения на вашем устройстве на наличие угроз</string>
+
+    <!-- Report Section -->
+    <string name="risk_score">Оценка риска</string>
+    <string name="app_info">Информация о приложении</string>
+    <string name="risk_factors">Факторы риска</string>
+    <string name="signature">Подпись</string>
+    <string name="malware_indicators">Индикаторы вредоносного ПО</string>
+    <string name="code_patterns">Шаблоны кода</string>
+    <string name="embedded_urls">Встроенные URL</string>
+    <string name="reject">Отклонить</string>
+    <string name="approve">Одобрить</string>
+    <string name="install">Установить</string>
+    <string name="dangerous_app_detected">ОБНАРУЖЕНО ОПАСНОЕ ПРИЛОЖЕНИЕ</string>
+    <string name="cancel_installation">ОТМЕНИТЬ УСТАНОВКУ</string>
+    <string name="install_anyway">Все равно установить (небезопасно)</string>
+    <string name="scanning">Сканирование APK…</string>
+
+    <!-- Scanner Steps -->
+    <string name="step_copy">Копирование APK…</string>
+    <string name="step_sig">Проверка подписи…</string>
+    <string name="step_extract">Извлечение файлов…</string>
+    <string name="step_manifest">Анализ манифеста…</string>
+    <string name="step_dex">Сканирование кода…</string>
+    <string name="step_risk">Расчет уровня риска…</string>
+    <string name="step_final">Подготовка отчета…</string>
+
+    <!-- Risk Messages -->
+    <string name="risk_low_msg">Этот APK кажется безопасным.</string>
+    <string name="risk_med_msg">Есть некоторые опасения. Просмотрите детали.</string>
+    <string name="risk_high_msg">Обнаружено несколько факторов риска. Будьте осторожны.</string>
+    <string name="risk_crit_msg">Крайне подозрительно. НЕ УСТАНАВЛИВАЙТЕ!</string>
+
+    <!-- Risk Reasons -->
+    <string name="reason_excessive_perms">Избыточные опасные разрешения (%1$d)</string>
+    <string name="reason_many_perms">Много опасных разрешений (%1$d)</string>
+    <string name="reason_dangerous_perms">Запрошено %1$d опасных разрешений</string>
+    <string name="reason_signature_perms">Запрошены разрешения уровня подписи</string>
+    <string name="reason_sms_fraud">Чтение и отправка SMS — возможен фрод</string>
+    <string name="reason_audio_surveillance">Микрофон + интернет — возможна прослушка</string>
+    <string name="reason_accessibility">Служба спец. возможностей — используется троянами</string>
+    <string name="reason_silent_install">Может скрытно устанавливать приложения</string>
+    <string name="reason_overlay">Может рисовать окна поверх других приложений</string>
+    <string name="reason_autostart">Автозапуск при загрузке устройства</string>
+    <string name="reason_debug_signed">Подписано отладочной подписью</string>
+    <string name="reason_expired_cert">Срок действия сертификата истек</string>
+    <string name="reason_self_signed">Самоподписанный сертификат</string>
+    <string name="reason_debuggable">Приложение имеет флаг debuggable=true</string>
+    <string name="reason_malware_found">Обнаружены признаки вредоносного кода: %1$s</string>
+    <string name="reason_malicious_urls">Обнаружено %1$d вредоносных URL</string>
+    <string name="reason_suspicious_urls">Найдено %1$d подозрительных URL</string>
+    <string name="reason_pattern_detected">Обнаружено: %1$s</string>
+
+    <!-- Real-time Shield -->
+    <string name="bank_shield_title">БАНКОВСКАЯ ЗАЩИТА АКТИВИРОВАНА</string>
+    <string name="bank_shield_msg">Открыто банковское приложение. APK Guard следит за попытками записи экрана и наложения окон.</string>
+    <string name="bank_scanning">ApkGuard: Анализ среды…</string>
+    <string name="bank_safe">Безопасно: Защита активна</string>
+    <string name="bank_details">Оверлеи и запись экрана заблокированы</string>
+    <string name="otp_warning_title">ПРЕДУПРЕЖДЕНИЕ БЕЗОПАСНОСТИ OTP</string>
+    <string name="otp_warning_msg">Обнаружен секретный код подтверждения. Будьте осторожны: никому не передавайте этот код и не вводите его на подозрительных сайтах!</string>
+    <string name="close_warning">Закрыть</string>
+
+    <!-- Installed Apps -->
+    <string name="installed_apps_title">Установленные приложения</string>
+    <string name="no_apps_found">Сторонние приложения не найдены</string>
+    <string name="search_apps">Поиск…</string>
+
+    <!-- Status -->
+    <string name="status_active">АКТИВНО</string>
+    <string name="status_inactive">НЕАКТИВНО</string>
+
+    <!-- Auth -->
+    <string name="auth_login_title">Вход</string>
+    <string name="auth_signup_title">Регистрация</string>
+    <string name="auth_username">Имя пользователя</string>
+    <string name="auth_email">Gmail адрес</string>
+    <string name="auth_email_username">Имя пользователя или Email</string>
+    <string name="auth_password">Пароль</string>
+    <string name="auth_continue">ПРОДОЛЖИТЬ</string>
+    <string name="auth_login_btn">ВОЙТИ</string>
+    <string name="auth_no_account">Нет аккаунта? Регистрация</string>
+    <string name="auth_have_account">Есть аккаунт? Войти</string>
+
+    <!-- Errors & Messages -->
+    <string name="error_scan_failed">Сбой сканирования</string>
+    <string name="error_go_back">Вернуться</string>
+    <string name="limit_reached_msg">Лимит сканирования исчерпан (использовано 3 бесплатных сканирования). Пожалуйста, подпишитесь на премиум, чтобы продолжить.</string>
+    <string name="btn_subscribe">ПОДПИСАТЬСЯ</string>
+    <string name="username_taken">Имя пользователя занято.</string>
+    <string name="email_not_verified">Email не подтвержден.</string>
+    <string name="user_not_found">Пользователь не найден</string>
+    <string name="auth_error">Ошибка аутентификации</string>
+
+    <!-- Subscription Screen -->
+    <string name="sub_screen_title">Тарифные планы</string>
+    <string name="sub_screen_subtitle">Перейдите на новый уровень безопасности</string>
+    <string name="plan_free_title">Базовый (Бесплатно)</string>
+    <string name="plan_free_price">0 сум</string>
+    <string name="plan_free_desc">Базовое сканирование</string>
+    <string name="plan_free_feat1">3 сканирования</string>
+    <string name="plan_free_feat2">Базовый анализ разрешений</string>
+    <string name="plan_free_feat3">Последние 5 записей истории</string>
+    <string name="plan_current">Текущий тариф</string>
+    <string name="plan_premium_title">Premium (Ежемесячный)</string>
+    <string name="plan_premium_desc">Полная защита на 1 месяц</string>
+    <string name="plan_premium_feat1">Безлимитное сканирование</string>
+    <string name="plan_premium_feat2">Мониторинг установки в реальном времени</string>
+    <string name="plan_premium_feat3">Защита банковских приложений и OTP</string>
+    <string name="plan_premium_btn">Перейти на Premium (Ежемесячно)</string>
+
+    <string name="plan_pro_title">VIP (Годовой)</string>
+    <string name="plan_pro_desc">Возможности Premium со скидкой 20%</string>
+    <string name="plan_pro_feat1">Все функции Premium</string>
+    <string name="plan_pro_feat2">Полный доступ на год</string>
+    <string name="plan_pro_feat3">Экономия 20% в год</string>
+    <string name="plan_pro_btn">Перейти на VIP (Годовой)</string>
+    <string name="sub_payment_info">Оплата производится через Click или Payme в сумах.</string>
+    <string name="select_payment_method">Выберите способ оплаты</string>
+    <string name="payment_google_play">Google Play</string>
+    <string name="payment_click">Click</string>
+    <string name="payment_payme">Payme</string>
+    <string name="payment_paynet">Paynet</string>
+    <string name="payment_card">Uzcard / Humo (Ручной перевод)</string>
+    <string name="payment_technical_work">Технические работы</string>
+    <string name="upload_receipt">Загрузить чек</string>
+    <string name="select_receipt_img">Выберите фото чека</string>
+    <string name="send_confirmation">Отправить на подтверждение</string>
+    <string name="receipt_sent_success">Чек отправлен! Админ (@ApkGuardAdmin) скоро его проверит.</string>
+    <string name="error_no_receipt">Пожалуйста, сначала выберите фото чека.</string>
+    <string name="payment_under_maintenance">Этот способ оплаты временно недоступен (техработы).</string>
+    <string name="card_copy_msg">Номер карты скопирован</string>
+    <string name="card_number_label">Номер карты:</string>
+    <string name="card_owner_label">Владелец:</string>
+    <string name="btn_copy">Копировать</string>
+
+    <!-- Home Buttons & Features -->
+    <string name="btn_select_apk">ВЫБРАТЬ APK</string>
+    <string name="btn_installed_apps">УСТАНОВЛЕННЫЕ ПРИЛОЖЕНИЯ</string>
+    <string name="feature_premium_shield_title">Premium Shield</string>
+    <string name="feature_premium_shield_desc">Защита банковских приложений</string>
+    <string name="feature_otp_guard_title">OTP Guard</string>
+    <string name="feature_otp_guard_desc">Безопасное хранение SMS-кодов</string>
+    <string name="close">Закрыть</string>
+    <string name="error_permissions_required">Требуются разрешения: пожалуйста, включите Overlay и Спец. возможности для продолжения.</string>
+    <string name="error_permissions_required_toast">Разрешения не активны! Откройте приложение и предоставьте необходимые права.</string>
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "300061804708",
+    "project_id": "apkguard-ebb1a",
+    "storage_bucket": "apkguard-ebb1a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300061804708:android:eb1edbdc2a95965a8c7e31",
+        "android_client_info": {
+          "package_name": "com.apkguard"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAw91h2mb4z6AYtyjjcuHnkcdywsRI3hxs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

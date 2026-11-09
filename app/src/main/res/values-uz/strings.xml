@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">APK Guard</string>
+    <string name="accessibility_description">Real vaqt rejimida APK o\'rnatilishini kuzatish va xavfsizlik himoyasi.</string>
+
+    <!-- Navigation & UI -->
+    <string name="nav_home">Asosiy</string>
+    <string name="nav_history">Tarix</string>
+    <string name="nav_scan">Skanerlash</string>
+    <string name="nav_report">Skanerlash hisoboti</string>
+    <string name="nav_installed_apps">O\'rnatilgan ilovalar</string>
+    <string name="select_language">Tilni tanlang</string>
+    <string name="select_apk">APK faylni tanlang</string>
+    <string name="history_title">Skanerlash tarixi</string>
+    <string name="no_scans">Hozircha skanerlar yo\'q</string>
+    <string name="scan_prompt">Natijalarni ko\'rish uchun APK-ni skanerlang</string>
+    <string name="clear_history">Barcha tarixni o\'chirish?</string>
+    <string name="clear_history_msg">Bu barcha %1$d skanerlash yozuvlarini butunlay o\'chirib tashlaydi.</string>
+    <string name="delete_all">Hammasini o\'chirish</string>
+    <string name="cancel">Bekor qilish</string>
+    <string name="back">Orqaga</string>
+    <string name="ok">OK</string>
+    <string name="permission_needed_title">Xotiraga ruxsat kerak</string>
+    <string name="permission_needed_desc">APK Guard ilovalarni o\'qish uchun xotiraga ruxsat so\'raydi. Sozlamalardan ruxsat bering.</string>
+
+    <!-- Home Features -->
+    <string name="home_title">APK Xavfsizlik Skaneri</string>
+    <string name="home_subtitle">Ilovani o\'rnatishdan oldin uni xavfsizlik\nxatarlari borligini tekshiring</string>
+    <string name="home_welcome">Xush kelibsiz</string>
+    <string name="home_services_status">Xizmatlar holati</string>
+    <string name="home_overall_protection">Umumiy himoya</string>
+    <string name="home_overlay_permission">Overlay ruxsati</string>
+    <string name="home_accessibility">Accessibility (Maxsus imkoniyatlar)</string>
+    <string name="home_premium_status">Premium Shield</string>
+
+    <!-- Auth -->
+    <string name="auth_login_title">Kirish</string>
+    <string name="auth_signup_title">Ro\'yxatdan o\'tish</string>
+    <string name="auth_username">Foydalanuvchi nomi (Username)</string>
+    <string name="auth_email">Gmail manzilingiz</string>
+    <string name="auth_email_username">Username yoki Email</string>
+    <string name="auth_password">Parol</string>
+    <string name="auth_continue">DAVOM ETISH</string>
+    <string name="auth_login_btn">KIRISH</string>
+    <string name="auth_no_account">Akkauntingiz yo\'qmi? Ro\'yxatdan o\'tish</string>
+    <string name="auth_have_account">Akkauntingiz bormi? Kirish</string>
+
+    <!-- Verification -->
+    <string name="verification_sent_title">Tasdiqlash xati yuborildi!</string>
+    <string name="verification_sent_desc">Biz ko\'rsatilgan Gmail manziliga havola yubordik. Ilovadan foydalanish uchun o\'sha havolani bosib, emailingizni tasdiqlang.</string>
+    <string name="verification_spam_warn">Diqqat: Xat kelmagan bo\'lsa, albatta SPAM papkasini tekshiring!</string>
+    <string name="verification_done_btn">TASDIQLADIM, KIRISH</string>
+    <string name="verification_back_btn">XAT KELMADI? ORQAGA QAYTISH</string>
+
+    <!-- Errors & Messages -->
+    <string name="error_scan_failed">Skanerlashda xatolik</string>
+    <string name="error_go_back">Orqaga qaytish</string>
+    <string name="limit_reached_msg">Skanerlash limiti tugadi (jami 3 ta bepul skanerlash). Davom etish uchun premium obuna bo\'ling.</string>
+    <string name="btn_subscribe">OBUNA BO\'LISH</string>
+    <string name="username_taken">Ushbu username band.</string>
+    <string name="email_not_verified">Email tasdiqlanmagan.</string>
+    <string name="user_not_found">Username topilmadi</string>
+    <string name="auth_error">Kirishda xatolik</string>
+
+    <!-- Subscription Screen -->
+    <string name="sub_screen_title">Tarif Rejalari</string>
+    <string name="sub_screen_subtitle">Xavfsizlikni keyingi bosqichga olib chiqing</string>
+    <string name="plan_free_title">Boshlang\'ich (Free)</string>
+    <string name="plan_free_price">0 so\'m</string>
+    <string name="plan_free_desc">Asosiy skanerlash</string>
+    <string name="plan_free_feat1">3 marta skanerlash</string>
+    <string name="plan_free_feat2">Oddiy ruxsatlar tahlili</string>
+    <string name="plan_free_feat3">Oxirgi 5 ta tarix</string>
+    <string name="plan_current">Hozirgi tarif</string>
+    <string name="plan_premium_title">Premium (Oylik)</string>
+    <string name="plan_premium_desc">1 oy davomida to\'liq himoya</string>
+    <string name="plan_premium_feat1">Cheksiz skanerlash</string>
+    <string name="plan_premium_feat2">Real-vaqtda o\'rnatish nazorati</string>
+    <string name="plan_premium_feat3">Bank va OTP himoyasi</string>
+    <string name="plan_premium_btn">Premiumga o\'tish (Oylik)</string>
+
+    <string name="plan_pro_title">VIP (Yillik)</string>
+    <string name="plan_pro_desc">Premium imkoniyatlar 20% chegirma bilan</string>
+    <string name="plan_pro_feat1">Barcha Premium imkoniyatlar</string>
+    <string name="plan_pro_feat2">Yillik to\'liq ruxsat</string>
+    <string name="plan_pro_feat3">Yiliga 20% tejash</string>
+    <string name="plan_pro_btn">VIP-ga o\'tish (Yillik)</string>
+    <string name="sub_payment_info">To\'lovlar Click yoki Payme orqali so\'mda amalga oshiriladi.</string>
+    <string name="select_payment_method">To\'lov usulini tanlang</string>
+    <string name="payment_google_play">Google Play</string>
+    <string name="payment_click">Click</string>
+    <string name="payment_payme">Payme</string>
+    <string name="payment_paynet">Paynet</string>
+    <string name="payment_card">Uzcard / Humo (Manual o\'tkazma)</string>
+    <string name="payment_technical_work">Texnik ishlar</string>
+    <string name="upload_receipt">Chekni yuklash</string>
+    <string name="select_receipt_img">Chek rasmini tanlang</string>
+    <string name="send_confirmation">Tasdiqlashga yuborish</string>
+    <string name="receipt_sent_success">Chek yuborildi! Admin (@ApkGuardAdmin) tez orada uni tekshiradi.</string>
+    <string name="error_no_receipt">Iltimos, avval chek rasmini tanlang.</string>
+    <string name="payment_under_maintenance">Ushbu to\'lov usuli hozirda texnik xizmat ko\'rsatishda.</string>
+    <string name="card_copy_msg">Karta raqami nusxalandi</string>
+    <string name="card_number_label">Karta raqami:</string>
+    <string name="card_owner_label">Ega:</string>
+    <string name="btn_copy">Nusxalash</string>
+
+    <!-- Status -->
+    <string name="status_active">FAOL</string>
+    <string name="status_inactive">FAOL EMAS</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Profil</string>
+    <string name="profile_edit_username">Username-ni o\'zgartirish</string>
+    <string name="profile_new_username">Yangi username</string>
+    <string name="profile_save">Saqlash</string>
+    <string name="profile_logout">Hisobdan chiqish</string>
+    <string name="profile_unknown">Noma\'lum</string>
+    <string name="profile_user_placeholder">Foydalanuvchi</string>
+    <string name="profile_plan">Tarif rejasi</string>
+    <string name="profile_premium_active">Premium (Faol)</string>
+    <string name="profile_free">Bepul (Premium emas)</string>
+    <string name="profile_scan_count">Skanerlashlar soni</string>
+    <string name="profile_unlimited">Cheksiz</string>
+    <string name="profile_upgrade">TARIFNI YANGILASH</string>
+    <string name="profile_logout_btn">HISOBDAN CHIQISH</string>
+    <string name="profile_email">Email</string>
+    <string name="profile_username">Username</string>
+
+    <!-- Home Buttons & Features -->
+    <string name="btn_select_apk">APK TANLASH</string>
+    <string name="btn_installed_apps">O\'RNATILGAN ILOVALAR</string>
+    <string name="feature_premium_shield_title">Premium Shield</string>
+    <string name="feature_premium_shield_desc">Bank ilovalarini himoya qilish</string>
+    <string name="feature_otp_guard_title">OTP Guard</string>
+    <string name="feature_otp_guard_desc">SMS kodlarni xavfsiz saqlash</string>
+    <string name="close">Yopish</string>
+    <string name="error_permissions_required">Ruxsatlar zarur: Davom etish uchun Overlay va Maxsus imkoniyatlarni (Accessibility) yoqing.</string>
+    <string name="error_permissions_required_toast">Ruxsatlar faol emas! Ilovani ochib, kerakli ruxsatlarni bering.</string>
+    <string name="status_protected">HIMOYALANGAN</string>
+    <string name="btn_enable_protection">HIMOYANI YOQISH</string>
+    <string name="home_features">Imkoniyatlar</string>
+    <string name="no_scans_yet">Hali skanerlashlar yo\'q</string>
+    <string name="about_app">Ilova haqida</string>
+    <string name="support_contact">Support bilan bog\'lanish</string>
+    <string name="privacy_policy">Maxfiylik siyosati</string>
+    <string name="terms_of_use">Foydalanish shartlari</string>
+    <string name="scan_apps_desc">Ilovani o\'rnatishdan oldin uni xavfsizlik xatarlari borligini tekshiring</string>
+    <string name="recent_scans">Oxirgi skanerlashlar</string>
+    <string name="status_safe">XAVFSIZ</string>
+    <string name="status_danger">XAVFLI</string>
+    <string name="status_suspicious">SHUBHALI</string>
+</resources>
